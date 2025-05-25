@@ -7,7 +7,7 @@ import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Tooltip,
-  TooltipContent,
+  // TooltipContent,
   TooltipTrigger,
   TooltipProvider,
 } from "@/components/ui/tooltip";
@@ -30,7 +30,7 @@ export function ThemeToggle() {
             <span className="sr-only">Switch Theme</span>
           </Button>
         </TooltipTrigger>
-        <TooltipContent side="bottom">Switch Theme</TooltipContent>
+        {/* <TooltipContent side="bottom">Switch Theme</TooltipContent> */}
       </Tooltip>
     </TooltipProvider>
   );
