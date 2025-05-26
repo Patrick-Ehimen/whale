@@ -1,5 +1,9 @@
-import AuthContainer from "@/components/auth/auth-container";
+import Navbar from "@/components/navigation/navbar";
 
 export default function Home() {
-  return <AuthContainer />;
+  return (
+    <main>
+      <Navbar />
+    </main>
+  );
 }

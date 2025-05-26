@@ -3,7 +3,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import LanguageSelector from "@/components/others/language-selector";
-import { ThemeToggle } from "@/components/others/theme-toggle";
 import HoverMenu from "@/components/others/hover-menu";
 import { navigationItems } from "@/constants/constants";
 import { Logo } from "@/public";
@@ -56,7 +55,6 @@ export default function Navbar() {
 
           {/* Language Selector */}
           <div className="flex gap-2 items-center">
-            <ThemeToggle />
             <LanguageSelector />
           </div>
         </div>
